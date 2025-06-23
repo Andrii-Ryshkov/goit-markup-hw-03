@@ -22,11 +22,12 @@ img {
   display: flex;
 }
 .upper-base {
-  align-items: center;
   border-bottom: 1px solid #e7e9fc;
   flex-wrap: nowrap;
+  display: flex;
 }
 .beginning {
+  align-items: center;
   align-items: baseline;
   display: flex;
 }
@@ -46,15 +47,22 @@ img {
   font-size: 18px;
 }
 .title-page {
+  padding-left: 0;
   padding-bottom: 24px;
   padding-top: 24px;
   gap: 40px;
   margin: 0 auto;
-  padding-left: 76px;
   display: flex;
   list-style: none;
 }
 .title-page-a {
+  padding-bottom: 24px;
+  padding-top: 24px;
+  gap: 40px;
+  display: flex;
+  padding-left: 332px;
+}
+.title-page-b {
   display: flex;
 }
 .hom {
@@ -131,6 +139,17 @@ img {
   background-color: #404bbf;
 }
 /* description */
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+}
 .first-chapter {
   display: flex;
   padding-top: 120px;
@@ -150,7 +169,58 @@ img {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.first-b {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.first-v {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.first-c {
+  margin-bottom: 8px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
 .des-a {
+  max-width: 264px;
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.des-b {
+  max-width: 264px;
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.des-v {
+  max-width: 264px;
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.des-c {
   max-width: 264px;
   margin-top: 8px;
   font-weight: 400;
@@ -185,17 +255,20 @@ img {
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
   margin-bottom: 120px;
+  padding-top: 32px;
+  padding-bottom: 32px;
   background-color: #ffffff;
 }
 .mark-a {
-  margin-bottom: 32px;
-  margin-top: 32px;
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+}
+.ma-b {
+  margin-bottom: 8px;
 }
 .ma-a {
   margin-top: 8px;
