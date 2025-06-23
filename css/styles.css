@@ -15,16 +15,16 @@ img {
 }
 /* navigation */
 .navi {
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  align-items: center;
   display: flex;
 }
 .upper-base {
   border-bottom: 1px solid #e7e9fc;
   flex-wrap: nowrap;
   display: flex;
+  width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  align-items: center;
 }
 .beginning {
   align-items: center;
@@ -47,19 +47,19 @@ img {
   font-size: 18px;
 }
 .title-page {
+  display: flex;
   padding-left: 0;
   padding-bottom: 24px;
   padding-top: 24px;
   gap: 40px;
   margin: 0 auto;
-  display: flex;
   list-style: none;
 }
 .title-page-a {
+  display: flex;
   padding-bottom: 24px;
   padding-top: 24px;
   gap: 40px;
-  display: flex;
   padding-left: 332px;
 }
 .title-page-b {
@@ -255,8 +255,6 @@ img {
   border-radius: 0px 0px 4px 4px;
   width: calc((100% - 72px) / 4);
   margin-bottom: 120px;
-  padding-top: 32px;
-  padding-bottom: 32px;
   background-color: #ffffff;
 }
 .mark-a {
@@ -266,6 +264,8 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .ma-b {
   margin-bottom: 8px;
@@ -305,8 +305,8 @@ img {
   width: calc((100% - 48px) / 3);
 }
 .list-a {
-  border-top: none;
   border: 1px solid #e7e9fc;
+  border-top: none;
   padding: 32px 16px;
   font-weight: 500;
   font-size: 20px;
