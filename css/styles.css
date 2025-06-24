@@ -14,17 +14,20 @@ img {
   margin: 0 auto;
 }
 /* navigation */
+.base {
+  width: 1158px;
+  display: flex;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .navi {
+  align-items: center;
   display: flex;
 }
 .upper-base {
   border-bottom: 1px solid #e7e9fc;
   flex-wrap: nowrap;
-  display: flex;
-  width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
-  align-items: center;
 }
 .beginning {
   align-items: center;
@@ -151,15 +154,26 @@ img {
   white-space: nowrap;
 }
 .first-chapter {
-  display: flex;
   padding-top: 120px;
   padding-bottom: 120px;
 }
-
 .description {
+  padding-left: 0;
   gap: 24px;
   display: flex;
   list-style-type: none;
+}
+.first-description {
+  width: calc((100% - 3 * 24px) / 4);
+}
+.second-description {
+  width: calc((100% - 3 * 24px) / 4);
+}
+.third-description {
+  width: calc((100% - 3 * 24px) / 4);
+}
+.fourth-description {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .first-a {
   margin-bottom: 8px;
