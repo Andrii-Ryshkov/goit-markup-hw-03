@@ -1,3 +1,5 @@
+* {
+}
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -7,6 +9,11 @@ body {
 img {
   display: block;
   width: 100%;
+}
+.container-header {
+  display: flex;
+  align-items: center;
+  width: 1158px;
 }
 .container {
   max-width: 1158px;
@@ -31,11 +38,10 @@ img {
 }
 .upper-base {
   border-bottom: 1px solid #e7e9fc;
-  flex-wrap: nowrap;
+  display: flex;
 }
 .beginning {
   align-items: center;
-  align-items: baseline;
   display: flex;
 }
 .basis {
@@ -45,9 +51,10 @@ img {
   letter-spacing: 0.03em;
   font-weight: 700;
   font-size: 18px;
-  text-decoration: none;
   text-transform: uppercase;
   color: #4d5ae5;
+  padding: 24px;
+  text-decoration: none;
 }
 .text {
   color: #2e2f42;
@@ -55,22 +62,18 @@ img {
 }
 .title-page {
   display: flex;
-  padding-left: 0;
-  padding-bottom: 24px;
-  padding-top: 24px;
   gap: 40px;
-  margin: 0 auto;
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 .title-page-a {
   display: flex;
-  padding-bottom: 24px;
-  padding-top: 24px;
   gap: 40px;
-  padding-left: 332px;
 }
 .title-page-b {
-  display: flex;
+  font-style: normal;
+  margin-left: auto;
 }
 .hom {
   color: #2e2f42;
