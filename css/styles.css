@@ -45,6 +45,7 @@ img {
   display: flex;
 }
 .basis {
+  padding: 24px 0;
   margin-right: 76px;
   font-family: "Raleway", sans-serif;
   line-height: 1.17;
@@ -53,7 +54,6 @@ img {
   font-size: 18px;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding: 24px;
   text-decoration: none;
 }
 .text {
@@ -63,7 +63,7 @@ img {
 .title-page {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
+  padding: 0;
   margin: 0;
   list-style: none;
 }
